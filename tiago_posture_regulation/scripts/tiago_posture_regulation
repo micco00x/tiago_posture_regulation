@@ -1,0 +1,5 @@
+#!/usr/bin/env python
+
+import tiago_posture_regulation.PostureRegulation
+if __name__ == '__main__':
+    tiago_posture_regulation.PostureRegulation.main()

@@ -1,0 +1,7 @@
+
+
+<launch>
+  <group ns="tiago_posture_regulation">
+      <node pkg="tiago_posture_regulation" type="tiago_posture_regulation" name="tiago_posture_regulation" output="screen" />
+  </group>
+</launch>
