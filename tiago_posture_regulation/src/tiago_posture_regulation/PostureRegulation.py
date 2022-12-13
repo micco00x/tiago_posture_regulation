@@ -142,7 +142,7 @@ class MotionControlManager:
                 rate.sleep()
                 continue
 
-            # Posture regulation.
+            # Posture regulation:
             command = \
                 self.posture_regulation_controller.compute_velocity_command(
                     self.configuration,
